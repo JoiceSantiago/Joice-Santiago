@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; /* Serve para que os elementos não mudem de tamanho quando usarmos um padding nele */
+}

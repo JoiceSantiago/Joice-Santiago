@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+
+    /* --BACKGROUND-- */
+    --bg-body: #EFE6DD;
+    --bg-header: #272d3467;
+    --bg-button: #ccba6e;
+    --bg-atuacao: #C9A66B;
+
+    /* --COLOR-- */
+    --cor-title-marrom: #5A3E2B;
+    --cor-title: #C9A44C;
+    --cor-text-white: #fff;
+    --cor-bege: #F5F5DC;    /* bege: */
+    --cor-marrom: #2E1F14;             
+
+    /* --FONT-FAMILY-- */
+    --font-title: "Playfair Display", serif;
+    --font-text:  "Poppins", serif;
+
+    /* --DESTAKS-- */
+    --bg-destaks-1: #D8B884;
+    --bg-destaks-2: #D1A875;
+    --bg-destaks-3: #AD8851;
+    --bg-destaks-4: #8B693B;
+    --cor-icon-1: #f39c12;
+    --cor-icon-2: #e74c3c;
+    --cor-icon-3: #ccba6e;
+    --cor-icon-4: #D4AF37;
+}

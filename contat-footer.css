@@ -1,0 +1,241 @@
+.formulario-image-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.formulario-container {
+    max-width: 80%;
+    height: 80%;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    background: rgba(15, 15, 15, 0.8);
+    box-shadow: 4px 4px 15px 4px rgba(76, 76, 76, 0.5);
+    border-radius: 10px;
+}
+
+.formulario, .contato {
+    flex: 1;
+    padding: 20px;
+}
+
+.formulario {
+    margin-right: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-family: var(--font-title);
+    color: var(--cor-title);
+}
+
+.divider-contato {
+    width: 50px;
+    height: 2px;
+    background: var(--bg-atuacao);
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid var(--cor-title);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: var(--cor-marrom);
+    background: rgba(255, 255, 255, 0.85);
+    outline: none;
+}
+
+textarea {
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid var(--cor-title);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: var(--cor-marrom);
+    background: rgba(255, 255, 255, 0.85);
+}
+
+#enviarWhatsApp {
+    margin-top: 5px;
+    padding: 8px;
+    background: var(--bg-button);
+    color: var(--cor-marrom);
+    border: 2px solid var(--bg-button);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+#enviarWhatsApp:hover {
+    background: transparent;
+    color: var(--cor-width);
+}
+
+.grid-contatos {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    height: 370px;
+    width: 100%;
+    padding: 10px;
+}
+
+.info-contato {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    height: 130px;
+    width: 100%;
+    margin-top: -10px;
+    padding: 8px 8px 0 8px;
+}
+
+.info-contatos, .local-contato {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -10px;
+}
+
+#icon-contato-1, #icon-contato-2 { 
+    width: 33px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-width);
+    font-size: 1rem;
+    background-color: rgba(6, 247, 34, 0.14);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#icon-contato-2 {
+    background-color: rgba(247, 6, 6, 0.14);
+}
+
+.text-contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -25px;
+}
+
+.text-contato h3 {
+    color: var(--cor-title);
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-family: var(--font-title);
+    margin: 0 0 8px 25px;
+    padding: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text-contato h3:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    
+}
+
+.text-contato span {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.text-contato p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.about-text {
+    width: 28%;
+    height: 100%;
+    display: flex;
+
+}
+
+.social-media {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.social-media a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: var(--cor-marrom);
+    border: rgba(46, 31, 20, 0.5) solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#icon-facebook:hover {
+    color: #007bff;
+}
+
+#icon-instagram:hover {
+    color: #e83e8c;
+}
+
+#icon-whatsapp:hover {
+    color: #0cc143;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--cor-marrom);
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
